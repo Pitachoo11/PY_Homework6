@@ -15,8 +15,6 @@
 #5 10 15 20 25 30
 #6 12 18 24 30 36
 
-from math import log10
-
 def printOperationTable(operation, num_rows=6, num_columns=6):
     
     for row in range(2, num_rows+1):
